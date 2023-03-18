@@ -10,6 +10,7 @@ $(function () {
   $('.jquery-form [name=input-number]').change(function () {
 
     // 試行回数
+    // tarialsがtraialになっていた
     trials++;
     $('.trials').html(trials);
 
@@ -17,6 +18,7 @@ $(function () {
     // NaNのとき0にする
     let val = Number(VAL_NUMBER) || 0;
     //数字がどのぐらい離れているか
+    //ranがrunになっていた
     const RESULT = Math.abs(val - ran);
 
     //判定処理
